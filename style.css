@@ -1,0 +1,119 @@
+body
+{
+  background:#DFE2CF;
+  color: #EA526F;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+h1
+{
+  color: red;
+  font-weight: 900;
+  font-size: 30px;
+
+}
+h2 
+{
+  color:#F92A82;
+  
+  font-size: 24px;
+}
+a 
+{
+  color: yellow;
+}
+a:hover 
+{
+  text-decoration: none;
+  color: purple;
+}
+
+.clear{
+  clear:both;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  width:100%;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.banner-bg{
+  background-color:rgba(230,230,230,0.5);
+  padding:20px;
+  border-radius:20px;
+}
+
+.menus {
+    text-align: center;
+    background-color: #eee;
+    margin: 20px 10px;
+    border-radius: 10px;
+    min-height: 243px;
+    padding: 10px;
+    vertical-align:top;
+}
+nav.navbar {
+    width: 100%;
+}
+
+.menus p{
+  font-size:20px;
+  font-weight: 400;
+}
+
+.menu-group{
+  text-align:center;
+}
+
+.images {
+    background-color: rgba(210,210,210,0.5);
+    width: 100px;
+    border-radius: 100%;
+    height: 100px;
+    margin: 10px auto;
+}
+#footer{
+  background-color:#000;
+  color:#fff;
+  padding:20px;
+  text-align:center;
+  clear:both;
+}
+
+#footer p{
+  font-size:12px;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+ul li{
+  display:inline-block;
+  list-style:none;
+  margin: 0 20px;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 28px;
+}
+#footer a:hover {
+  color: white;
+}
+
